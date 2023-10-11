@@ -426,7 +426,7 @@ botonPagar.addEventListener("click", (event) => {
     event.preventDefault();
     Swal.fire({
         title: "Pago Exitoso",
-        text: "¡Tu compra está en camino!",
+        text: "¡Tu compra está en camino, pronto tu gatito podra disfrutarlo!",
         icon: "success",
         confirmButtonText: "Aceptar",
     });
