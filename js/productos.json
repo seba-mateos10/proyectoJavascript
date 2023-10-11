@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "nombre": "Alimento Royal Canin Gatos Castrados Weight Control",
+        "precio": 50,
+        "categoria": "Royal Canin",
+        "imagen": "royal-canin-gatos-castrados-weight-control_600x.webp"
+    },
+    {
+        "id": 2,
+        "nombre": "Alimento Royal Canin Club Performance para gato adulto sabor mix",
+        "precio": 60,
+        "categoria": "Royal Canin",
+        "imagen": "D_NQ_NP_854850-MLA49116021658_022022-O.webp"
+    },
+    {
+        "id": 3,
+        "nombre": "Alimento Whiskas 1+ Whiskas Gatos para gato adulto todos los tamaños sabor pescado",
+        "precio": 35,
+        "categoria": "Whiskas",
+        "imagen": "D_NQ_NP_2X_640309-MLU70020202001_062023-F.webp"
+    },
+    {
+        "id": 4,
+        "nombre": "Alimento Whiskas 1+ Whiskas Gatos para gato adulto todos los tamaños sabor pollo",
+        "precio": 35,
+        "categoria": "Whiskas",
+        "imagen": "/D_NQ_NP_2X_911966-MLA54386216962_032023-F.webp"
+    },
+    {
+        "id": 5,
+        "nombre": "Alimento Pro Plan Kitten para gato de temprana edad sabor pollo y arroz",
+        "precio": 90,
+        "categoria": "Pro Plan",
+        "imagen": "D_NQ_NP_2X_696341-MLA48960037003_012022-F.webp"
+    },
+    {
+        "id": 6,
+        "nombre": "Alimento Pro Plan Gato Adulto",
+        "precio": 75,
+        "categoria": "Pro Plan",
+        "imagen": "PurinaProPlanGatoAdulto_c6652398-6ba6-4544-b64a-4a9d0afcf2cf_600x.webp"
+    },
+    {
+        "id": 7,
+        "nombre": "PURINA GOURMET GOLD Mousse con Pollo",
+        "precio": 10,
+        "categoria": "Gourmet",
+        "imagen": "8410168195586_1 front pack_0.webp"
+    },
+    {
+        "id": 8,
+        "nombre": "PURINA GOURMET GOLD Terrine con Salmón",
+        "precio": 10,
+        "categoria": "Gourmet",
+        "imagen": "s-l640.jpg"
+    }
+]

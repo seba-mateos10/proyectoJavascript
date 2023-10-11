@@ -108,6 +108,77 @@ main{
     margin: auto;
 }
 
+/* botones para las categorias */
+ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px !important;
+}
+
+.botonCategoria {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 0.5rem;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 500;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+    z-index: 0 !important;
+}
+
+.botonCategoria::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 0.5rem;
+    background-color: #b16d14;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(207, 27, 27, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(201, 22, 22, 0.27);
+    transition: all 250ms;
+}
+
+.botonCategoria:hover {
+    color: #ffffff;
+}
+
+.botonCategoria:hover::before {
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .botonCategoria {
+        padding: 5px;
+        margin: auto;
+        color: #212121;
+        text-align: center;
+        font-size: 15px;
+        -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    }
+    ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        justify-content: space-between;
+        padding: 20px 5px !important;
+    }
+}
+
+.seleccionado {
+    color: #ffffff;
+    background-color: #b16d14;
+    transition: background-color 0.4s;
+}
 
 /* Carrito */
 .carrito-compras{
