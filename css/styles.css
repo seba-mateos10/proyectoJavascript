@@ -264,3 +264,103 @@ ul{
     text-align: center;
     font-size: 14px;
 }
+
+/* pie de pagina */
+footer {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    background-color: #673c04;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  footer .footer-logo {
+    height: 80px;
+    margin-bottom: 1rem;
+    background-color: #75480c;
+    border-radius: 40px;
+  }
+  footer .redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+  footer .redes-sociales .redes-sociales__iconos {
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+    border: 1px solid #f2f2f2;
+    background-image: url(../img/81341.png);
+    background-position: center;
+    background-size: 98%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+  }
+  footer .redes-sociales .redes-sociales__iconos:hover {
+    background-color: #121212;
+    filter: invert(1);
+  }
+  footer .footer-menu {
+    list-style: none;
+    color: #f2f2f2;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+  footer .footer-menu .footer-menu__item {
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+  }
+  footer .footer-menu .footer-menu__item:hover {
+    opacity: 1;
+  }
+  footer .footer-menu__copyright {
+    color: #f2f2f2;
+    opacity: 0.3;
+    text-align: center;
+  }
+  footer .redes-sociales__iconos:nth-of-type(2) {
+    background-image: url(../img/627b94685a3e2ac874a7573c.png);
+  }
+  footer .redes-sociales__iconos:nth-of-type(3) {
+    background-image: url(../img/5b73459960abeab3bd7be40fdc2fd6c3.jpg);
+  }
+  
+  .scale-in-hor-right {
+    animation: scale-in-hor-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+  @keyframes scale-in-hor-right {
+    0% {
+      transform: scaleX(0);
+      transform-origin: 100% 100%;
+      opacity: 1;
+    }
+    100% {
+      transform: scaleX(1);
+      transform-origin: 100% 100%;
+      opacity: 1;
+    }
+  }
+  .fade-in-bottom {
+    animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  }
+  @keyframes fade-in-bottom {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
