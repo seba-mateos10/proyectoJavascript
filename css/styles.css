@@ -272,7 +272,7 @@ footer {
     bottom: 0;
     left: 0;
     padding: 2rem 8%;
-    background-color: #673c04;
+    background-color: #695b4d;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -281,7 +281,7 @@ footer {
   footer .footer-logo {
     height: 80px;
     margin-bottom: 1rem;
-    background-color: #75480c;
+    background-color: #eae6e0;
     border-radius: 40px;
   }
   footer .redes-sociales {
